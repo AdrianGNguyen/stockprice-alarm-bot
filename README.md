@@ -16,6 +16,7 @@ for more information about the release check this [link](https://docs.python.org
 + In your command prompt install these dependencies using these commands:
   
 _pip install yfinance_
+
 _pip install winotify_
 
 + In priceAlarm.py change value of *tickers, upper_limits, lower_limits* according to your chosen stocks.
