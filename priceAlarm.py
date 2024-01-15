@@ -19,7 +19,7 @@ def alert():
        
         last_prices = [yf.Ticker(ticker).history(period="1d")["Close"].iloc[-1] for ticker in tickers]
         print(last_prices)
-        time.sleep(30) #change interval for longer delays
+        time.sleep(45) #change interval for longer delays
         for i in range(len(tickers)):
 
             # If stock price hit upper limit
