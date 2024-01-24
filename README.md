@@ -1,4 +1,4 @@
-# stockprice-alarm-bot
+# Stock Price Alarm Bot
 This simple Python bot will send a window notification informing you of many stock price actions.
 These are the features of the application.
 + Periodically check the real-time market price of many of your chosen stocks.
