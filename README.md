@@ -15,14 +15,22 @@ for more information about the release check this [link](https://docs.python.org
 + Ensure that you have a reliable internet connection as the script relies on fetching real-time stock data from Yahoo Finance.
 + The script is designed to work on Windows due to the use of the winotify library for notifications.
 
-## Getting started
-+ Clone the repository
-+ In your command prompt install these dependencies using these commands:
-  
-_pip install yfinance_
+## Features
++ Stock Price Monitoring:
 
-_pip install winotify_
+The script monitors the stock prices of specified tickers using the Yahoo Finance API, providing real-time data on selected stocks.
+ Price Alert System:
+
+The script generates desktop notifications when a stock's price exceeds predefined upper or lower limits, giving users timely alerts for potential selling or buying opportunities.
++ System Tray Integration:
+
+The script includes a system tray icon for a non-intrusive presence. Users can easily exit the script using the "Exit" option in the system tray menu, providing a convenient and user-friendly interface.
 
 + In priceAlarm.py change value of *tickers, upper_limits, lower_limits* according to your chosen stocks.
+## How to use
++ Install required libraries: pip install yfinance winotify pystray Pillow.
++ Place images (sell.png, buy.png, bot.png) in the same directory as the script.
++ Update tickers, upper_limits, and lower_limits based on the stocks you want to monitor and their corresponding price limits.
+Run the script.
 
 
